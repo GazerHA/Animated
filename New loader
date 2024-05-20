@@ -1,1 +1,2 @@
-
+-- Load and execute the code from the URL
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Down%20Message"))()
