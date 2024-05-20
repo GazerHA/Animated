@@ -1,0 +1,39 @@
+-- Create a new Sound instance
+local sound = Instance.new("Sound")
+
+-- Set the SoundId to the provided audio ID
+sound.SoundId = "rbxassetid://1838457617"
+
+-- Set the parent of the sound to the game's workspace or a specific object
+sound.Parent = game.Workspace
+
+-- Optionally, set properties like Volume and Looping
+sound.Volume = 2.5 -- Set the volume to a value between 0 and 10
+sound.Looped = true -- Set to true if you want the sound to loop
+
+-- Play the sound
+sound:Play()
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "patrickGui"
+gui.Parent = game.CoreGui
+
+--///patrick anti piracy///--
+
+
+-- put your mainframe into the screengui that I have made (frame.Parent = gui) 
+
+local piracy = Instance.new("TextLabel")
+piracy.Size = UDim2.new(0.3, 0, 0.2, 0)
+piracy.Position = UDim2.new(0.2, 0, 0.2, 0)
+piracy.BackgroundColor3 = Color3.new(0, 0, 0)
+piracy.BorderColor3 = Color3.new(0, 0, 0)
+piracy.BorderSizePixel = 1
+piracy.Text = "Animation Currently Down ●"
+piracy.TextSize = 50
+piracy.BackgroundTransparency = 1
+piracy.TextColor3 = Color3.new(255, 255, 255)
+piracy.Font = Enum.Font.SourceSansBold
+piracy.Parent = gui
+
+
