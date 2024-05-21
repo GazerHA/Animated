@@ -2,7 +2,7 @@
 
 -- Load The Obfuscated Run :Troll:
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Idle%20Obfuscated"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Run%20Obfuscated"))()
 
 
 
