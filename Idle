@@ -1,7 +1,7 @@
 --[[
 
 -- Got Your Nose!
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Down%20Message"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Idle%20Obfuscated"))()
 
 
 
