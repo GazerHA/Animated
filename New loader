@@ -1,2 +1,5 @@
--- Load and execute the code from the URL
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Down%20Message"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Idle"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Walk"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Run"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Jump"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GazerHA/Animated/main/Fall"))()
