@@ -1,0 +1,32 @@
+local gui = Instance.new("ScreenGui")
+gui.Name = "GazerGui"
+gui.Parent = game.CoreGui
+
+
+
+-- put your mainframe into the screengui that I have made (frame.Parent = gui) 
+
+local ga = Instance.new("Frame")
+ga.Size = UDim2.new(0.5, 0, 0.5, 0)
+ga.Position = UDim2.new(0, 0, 0, 0)
+ga.BackgroundColor3 = Color3.new(1, 1, 1)
+ga.BorderColor3 = Color3.new(0, 0, 0)
+ga.BorderSizePixel = 1
+ga.Active = true
+ga.BackgroundTransparency = 0 
+ga.Draggable = false
+ga.Parent = gui
+
+
+local Gay = Instance.new("TextLabel")
+Gay.Size = UDim2.new(1, 1, 1, 0)
+Gay.Position = UDim2.new(0.5, 0, 0.5, 0)
+Gay.BackgroundColor3 = Color3.new(0, 0, 0)
+Gay.BorderColor3 = Color3.new(0, 0, 0)
+Gay.BorderSizePixel = 1
+Gay.Text = "FUCK YOU" 
+Gay.TextSize = 30
+Gay.BackgroundTransparency = 0 
+Gay.TextColor3 = Color3.new(255, 255, 255)
+Gay.Font = Enum.Font.Code
+Gay.Parent = ga
